@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(231, 255, 243);
+}
+
+.container{
+    background-color: plum;
+    width: 50rem;
+    min-height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.searchBar{
+    margin: 2rem 0px;
+    border: 2px solid red;
+    width: 80%;
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBar input{
+    width: 50%;
+    height: 2rem;
+}
+
+
